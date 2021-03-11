@@ -1,3 +1,50 @@
 /* ======================================================
    OEFENEN MET FLEXBOX
 ========================================================= */
+
+body {
+    width: 1200px;
+}
+
+.one {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+/*.two {*/
+/*    display: flex;*/
+/*    justify-self: flex-start;
+}*/
+
+#edhub {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.three ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.edhub3 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 400px; /* kan groene blok ook in midden dmv centreren?*/
+  }
+
+.five article {
+    display: flex;
+    flex-direction: row;
+    align-self: normal;
+    flex-wrap: wrap;
+}
+
