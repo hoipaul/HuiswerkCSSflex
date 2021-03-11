@@ -37,10 +37,14 @@ main > a {}
 
 /* Verander de achtergrond van de SignUp button. Tip: https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors  */
 
-.subscribe {}
+#submitbutton {
+    background-color: black;
+    color: white;
+}
 
 /* Geef het tekst-veld een blauwe rand wanneer hij in focus is */
 
+#inputveld {}
 
 /* Target alle heading tags op de pagina en zet hun font-family op 'Bree Serif', serif */
 
@@ -50,8 +54,8 @@ main > a {}
     url('breeserif-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
+
 h1, h2, h3 {
     font-family: Bree Serif, Serif;
 }
