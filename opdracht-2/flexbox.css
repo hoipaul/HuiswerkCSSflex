@@ -17,18 +17,18 @@ body {
 /*    justify-self: flex-start;
 }*/
 
-#edhub {
+#edhub { /* edhub op dezelfde regel krijgen */
     display: flex;
     justify-content: flex-end;
 }
 
-.three ul {
+.three ul { /* 3 woorden nog naar links krijgen */
     display: flex;
     justify-content: space-around;
     list-style-type: none;
 }
 
-.edhub3 {
+.edhub3 { /* edhub op dezelfde regel krijgen */
     display: flex;
     justify-content: flex-end;
 }
@@ -38,10 +38,10 @@ form {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 400px; /* kan groene blok ook in midden dmv centreren?*/
+    margin-left: 400px; /* kan groene blok ook in midden dmv centreren? */
   }
 
-.five article {
+.five article { /* nog werkend krijgen */
     display: flex;
     flex-direction: row;
     align-self: normal;

@@ -6,55 +6,48 @@
 
 #ciaotutti {
     width: 100%;
-}
+    }
 
 /* 1.2 Verander de kleur van alle list items in de unordered list naar hsl(110, 29%, 52%) */
 
 ul {
     color: hsl(110, 29%, 52%);
-}
+    }
 
 /* 1.3 Geef de 'span' tag in de footer een beschrijvende class name en maak de lettergrootte kleiner  */
 
 .copyright {
     font-size: smaller;
-}
+    }
 
 /* 1.4 Haal de text-decoration van navigatie-links weg, geef onbezochte links de kleur hsl(359, 79%, 56%) en verander de kleur wanneer de gebruiker er overheen hovert. */
 
-.wrapper ul li a {
+nav ul li a {
     text-decoration-line: none;}
-    a:link {color: hsl(359, 79%, 56%);}
-    a:visited {color: red}
-    a:hover {color: black;}
+    a:link {color: hsl(359, 79%, 56%)}
+    a:visited {color: black;}
+    a:hover {color: green;}
 
 /* 1.5 Maak een hover- en visited stijl voor alle links in 'main'. */
 
-main > a {}
-    a:link {color: hsl(359, 79%, 56%);}
+.main > a {}
+    a:link {color: green;} /* maakt nu alle links groen, ook die van 1.4 */
     a:visited {color: red}
-    a:hover {color: black;}
+    a:hover {color: white;} /* maakt nu álles wit, verandert ook de a in 1.4 somehow */
 
 /* Verander de achtergrond van de SignUp button. Tip: https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors  */
 
 #submitbutton {
     background-color: black;
     color: white;
-}
+    }
 
 /* Geef het tekst-veld een blauwe rand wanneer hij in focus is */
 
-#inputveld {}
+#textarea {outline: none}
+#textarea:focus {border-color: blue;}
 
 /* Target alle heading tags op de pagina en zet hun font-family op 'Bree Serif', serif */
-
-@font-face {
-    font-family: 'bree_serifregular';
-    src: url('breeserif-regular-webfont.woff2') format('woff2'),
-    url('breeserif-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
 
 h1, h2, h3 {
     font-family: Bree Serif, Serif;
