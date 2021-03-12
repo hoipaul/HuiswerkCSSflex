@@ -32,7 +32,7 @@ nav a {
 
 .main a:hover {
     text-decoration-line: none;
-    color: yellow;} /* alle links samen */
+    color: yellow;}
 
 main a:visited {
     color: purple;
