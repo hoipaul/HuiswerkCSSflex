@@ -17,7 +17,7 @@ body {
 /*    justify-self: flex-start;
 }*/
 
-#edhub { /* edhub op dezelfde regel krijgen */
+#edhub { /* edhub nog op dezelfde regel krijgen */
     display: flex;
     justify-content: flex-end;
 }
@@ -28,7 +28,7 @@ body {
     list-style-type: none;
 }
 
-.edhub3 { /* edhub op dezelfde regel krijgen */
+.edhub3 { /* edhub nog op dezelfde regel krijgen */
     display: flex;
     justify-content: flex-end;
 }
