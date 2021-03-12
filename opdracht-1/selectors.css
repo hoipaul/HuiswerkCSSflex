@@ -25,14 +25,13 @@ ul {
 nav a {
     text-decoration-line: none;}
     a:link {color: hsl(359, 79%, 56%)}
-    a:visited {color: black;} /* nog niet alles apart */
+    a:visited {color: black;} /* alle links samen, nog niet apart */
     a:hover {color: green;}
 
 /* 1.5 Maak een hover- en visited stijl voor alle links in 'main'. */
 
 .main a:hover {
-    text-decoration-line: none;
-    color: yellow;}
+    color: yellow;} /* alle links samen, nog niet apart */
 
 main a:visited {
     color: purple;
